@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/pho3nix96
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/pho3nix96
+  projects: https://github.com/pho3nix96?tab=repositories
 
 
 # Links to your social media accounts.
@@ -29,13 +29,13 @@ nav:
 social_links:
   -
     icon: github
-    link: http://github.com/pho3nix96/cactus-dark
-  -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
+    link: http://github.com/pho3nix96
+ # -
+ #   icon: twitter
+ #   link: /
+ # -
+ #   icon: facebook
+ #   link: /
   -
     icon: mail
     link: mailto:name@email.com
@@ -72,7 +72,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2025
   end_year:
 
 # Customize the 404 page
@@ -81,7 +81,7 @@ copyright:
 error_404:
   enabled: true
   title: "404 Page Not Found"
-  description: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+  description: "The page you are looking for might has disappeared. Sadge."
 
 
 ##############################################################################
@@ -100,7 +100,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/food.png
   gravatar: false
   grayout: true
 
