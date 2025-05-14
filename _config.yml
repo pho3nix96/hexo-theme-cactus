@@ -15,9 +15,10 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
-  articles: /archives/
+  about: ../about/me.md
+  Writing: /archives/
   projects: https://github.com/pho3nix96?tab=repositories
+  Link: https://example.com
 
 
 # Links to your social media accounts.
@@ -30,15 +31,15 @@ social_links:
   -
     icon: github
     link: http://github.com/pho3nix96
- # -
- #   icon: twitter
- #   link: /
+  -
+    icon: twitter
+    link: https://x.com/phoen1x96
  # -
  #   icon: facebook
  #   link: /
-  -
-    icon: mail
-    link: mailto:name@email.com
+ # -
+ #   icon: mail
+ #   link: mailto:name@email.com
 
 
 # Customize the overview with displaying a tagcloud on the index page.
@@ -81,7 +82,7 @@ copyright:
 error_404:
   enabled: true
   title: "404 Page Not Found"
-  description: "The page you are looking for might has disappeared. Sadge."
+  description: "The page has disappeared. Sadge."
 
 
 ##############################################################################
@@ -115,13 +116,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: /images/food.png
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: /images/food.png
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: /images/food.png
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
@@ -134,7 +135,7 @@ favicon:
 colorscheme: classic
 
 # Maximal width of the page in rem units.
-page_width: 48
+page_width: 75
 
 
 ##############################################################################
@@ -175,8 +176,8 @@ utterances:
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
-  enabled: false
-  id: UA-86660611-1
+  enabled: true
+  id: G-BYDHY66LSL
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
